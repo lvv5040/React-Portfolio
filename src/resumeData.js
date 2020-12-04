@@ -1,60 +1,60 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Lisa Van Huijkelom",
+    "role": "Tier II Analyst",
+    "linkedinId":" https://www.linkedin.com/in/lisa-van-huijkelom/",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "I currently work through tickets analyzing our clients requests, concerns, and issues. Once we have solutions I present them to our customers.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/lisa-van-huijkelom/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/lvv5040",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"Instagram",
+          "url":"https://www.instagram.com/lisaundalex/",
+          "className":"fa fa-instagram"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am currently enrolled in a Fullstack Software Engineer BootCamp at Denver University, and I will be graduating in December 2020. Outside of learning how to code I love hiking, photography, biking, and video games.",
+    "address":"Colorado",
+    "website":"https://github.com/lvv5040",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Penn State Abington",
+        "specialization":"Corporate Communication",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2014",
+        "Achievements":"With a minor in Business"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Denver University",
+        "specialization":"Fullstack Software Engineer Bootcamp",
+        "MonthOfPassing":"December",
+        "YearOfPassing":"2020",
+        "Achievements":"Fullstack Software Concepts"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Infinicept",
+        "specialization":"Tier II Anyalyst",
+        "MonthOfLeaving":"From November 2019 to",
+        "YearOfLeaving":"Current",
+        "Achievements":"Working through tickets from our clients, analyzing their concerns, requests, and updates."
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"CardConnect",
+        "specialization":"Account Manager",
+        "MonthOfLeaving":"From September 2017 to",
+        "YearOfLeaving":"October 2019",
+        "Achievements":"Working with a portfolio of clients, helping them through the onboarding process and post onboarding requests."
       }
     ],
     "skillsDescription":"Your skills here",
