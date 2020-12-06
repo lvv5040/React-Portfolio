@@ -1,9 +1,29 @@
 import React, { Component } from 'react';
+
 export default class Header extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
-    let resumeData = this.props.resumeData;
+    const socialLinks = [
+      {
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/lisa-van-huijkelom/",
+        className: "fa fa-linkedin",
+      },
+      {
+        name: "github",
+        url: "https://github.com/lvv5040",
+        className: "fa fa-github",
+      },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/lisaundalex/",
+        className: "fa fa-instagram",
+      },
+    ];
     return (
-      <React.Fragment>
+      <>
       
       <header id="home">
          <nav id="nav-wrap">
@@ -21,16 +41,16 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+               <h1 className="responsive-headline">I am {this.props.data.name}.</h1>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {this.props.data.role}.{this.props.data.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
                   {
-                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                    socialLinks && socialLinks.map(link =>{
                       return(
-                              <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                              <li key={link.name}>
+                                <a href={link.url} target="_blank"><i className={link.className}></i></a>
                               </li>
                             )
                           }
@@ -45,7 +65,7 @@ export default class Header extends Component {
          </p>
 
       </header>
-      </React.Fragment>
+      </>
     );
   }
 }

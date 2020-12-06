@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+
 export default  class Resume extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <section id="resume">
 
@@ -13,16 +16,16 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
               {
-                resumeData.education && resumeData.education.map((item)=>{
+                this.props.data.education && this.props.data.education.map((datum)=>{
                   return(
-                    <div className="row item">
+                    <div className="row datum">
                        <div className="twelve columns">
-                          <h3>{item.UniversityName}</h3>
+                          <h3>{datum.UniversityName}</h3>
                           <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          {datum.specialization}
+                          <span>&bull;</span> <em className="date">{datum.MonthOfPassing} {datum.YearOfPassing}</em></p>
                           <p>
-                          {item.Achievements}
+                          {datum.Achievements}
                           </p>
                        </div>
                     </div>
@@ -38,16 +41,16 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
               {
-                resumeData.work && resumeData.work.map((item) => {
+                this.props.data.work && this.props.data.work.map((datum) => {
                   return(
                     <div className="row item">
                        <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
+                          <h3>{datum.CompanyName}</h3>
                           <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          {datum.specialization}
+                          <span>&bull;</span> <em className="date">{datum.MonthOfLeaving} {datum.YearOfLeaving}</em></p>
                           <p>
-                          {item.Achievements}
+                          {datum.Achievements}
                           </p>
                        </div>
 
@@ -69,18 +72,18 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
 
                <p>
-               {resumeData.skillsDescription}
+               {this.props.data.skillsDescription}
                </p>
 
    				<div className="bars">
 
    				   <ul className="skills">
                 {
-                  resumeData.skills && resumeData.skills.map((item) => {
+                  this.props.data.skills && this.props.data.skills.map((datum) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <span className={`bar-expand ${datum.skillname.toLowerCase()}`}>
+                      </span><em>{datum.skillname}</em>
                       </li>
                     )
                   })

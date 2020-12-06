@@ -1,4 +1,4 @@
-let resumeData = {
+let data = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Lisa Van Huijkelom",
     "role": "Tier II Analyst",
