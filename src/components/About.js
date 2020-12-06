@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import headshot from "../images/headshot.jpeg";
 
 export default class About extends Component {
-   constructor(props) {
-      super(props);
-    }
   render() {
     return (
       <section id="about">
