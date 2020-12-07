@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "835718f01b3efa13ee62",
-    "url": "/React-Portfolio/static/js/main.835718f0.chunk.js"
+    "revision": "843fdf8b351fb2a6ac42",
+    "url": "/React-Portfolio/static/js/main.843fdf8b.chunk.js"
   },
   {
     "revision": "a1f2bd7668b1c6d250da",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/React-Portfolio/static/media/password.9f025a91.jpg"
   },
   {
-    "revision": "cb871d90dca5c05e6c88cc9e17bd3ffa",
+    "revision": "d59a6b1488ab0f7d605ba9963aa9c431",
     "url": "/React-Portfolio/index.html"
   }
 ];
